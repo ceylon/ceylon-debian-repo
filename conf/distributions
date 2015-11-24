@@ -1,0 +1,7 @@
+Origin: Ceylon
+Label: Ceylon
+Codename: unstable
+Architectures: i386 amd64
+Components: main
+Description: Apt repository for the Ceylon project
+SignWith: 03A2A094
