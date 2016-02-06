@@ -55,11 +55,15 @@ Also make sure you've got "texinfo" installed:
 
  - `sudo apt-get install texinfo
 
-**For the following commands make sure your current directory is the `ceylon-dist` project.**
+**For the following commands make sure your current directory is where this README is.**
 
-The next thing we need to create a DEB are the *sources*, which in our case is the official distribution ZIP file, so let's create it:
+The next thing we need is the official distribution ZIP file, so either:
 
- - `ant release`
+ - Download it from [the website](http://www.ceylon-lang.org/download/),
+ - Create it [using Docker](https://hub.docker.com/r/ceylon/ceylon-build/) or
+ - Build it following [these instructions](http://www.ceylon-lang.org/code/contribute/) but using `ant clean release`
+
+And copy it to the current directory.
 
 And finally we get to the point where we actually build the DEB package:
 
@@ -67,4 +71,5 @@ And finally we get to the point where we actually build the DEB package:
 
 The result you'll be able to find in `../`!
 
-Now your next step is to build a Debian repo, so follow instructions at https://github.com/ceylon/ceylon-debian-repo
+Now your next step is to [build a Debian repo](../repo/README.md)
+
