@@ -23,4 +23,4 @@ do
  fi
 done
 
-reprepro includedeb unstable $DEBS
+reprepro --confdir $(dirname $0)/conf includedeb unstable $DEBS
