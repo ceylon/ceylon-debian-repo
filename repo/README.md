@@ -3,9 +3,9 @@
 You need to have a Debian-based machine (Ubuntu works) for this to work. This is based on 
 https://wiki.debian.org/SettingUpSignedAptRepositoryWithReprepro
 
-Install the reprepo package:
+Install the reprepro package:
 
-    $ sudo apt-get install reprepo
+    $ sudo apt-get install reprepro
 
 Make sure you have the private GPG key to be allowed to sign.
 
