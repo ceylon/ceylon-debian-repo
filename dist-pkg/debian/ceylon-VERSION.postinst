@@ -1,7 +1,7 @@
 #!/bin/sh
 
-VERSION=1.2.1
-INSTALL_LINE="/usr/bin/ceylon ceylon /usr/share/ceylon/$VERSION/bin/ceylon 12010"
+VERSION=@@VERSION@@
+INSTALL_LINE="/usr/bin/ceylon ceylon /usr/share/ceylon/$VERSION/bin/ceylon @@VERSIONPRIO@@"
 OLD_VERSIONS="1.0.0 1.1.0"
 
 set -e
