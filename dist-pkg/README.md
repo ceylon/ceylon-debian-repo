@@ -49,7 +49,7 @@ This is going to be from scratch asuming a clean Debian/Ubuntu install.
 
 First we're going to make sure we've got all the core development tools installed:
 
- - `sudo apt-get install dh-make fakeroot devscripts
+ - `sudo apt-get install dh-make fakeroot devscripts rsync
 
 Also make sure you've got "texinfo" installed:
 
@@ -67,7 +67,7 @@ And copy it to the current directory.
 
 And finally we get to the point where we actually build the DEB package:
 
- - `./debian rules clean binary`
+ - `fakeroot ./debian/rules clean binary`
 
 The result you'll be able to find in `../`!
 
