@@ -8,7 +8,7 @@ Homepage: http://ceylon-lang.org
 
 Package: ceylon-@@VERSION@@
 Architecture: all
-Depends: ${misc:Depends}, default-jre
+Depends: ${misc:Depends}, default-jre | java-runtime
 Description: Ceylon language
  This is the Ceylon language packaged for Debian.
  .
