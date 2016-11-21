@@ -2,6 +2,7 @@ Source: ceylon-1.3.1
 Section: main
 Priority: extra
 Maintainer: Stephane Epardaud <stephane@lunatech.com>
+Uploaders: Tako Schotanus <tako@ceylon-lang.org>
 Build-Depends: debhelper (>= 7), ant
 Standards-Version: 3.8.3
 Homepage: http://ceylon-lang.org
