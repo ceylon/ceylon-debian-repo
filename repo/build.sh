@@ -13,7 +13,8 @@ DEBS="ceylon-0.1_0.1_all.deb \
  ceylon-1.2.1_1.2.1_all.deb \
  ceylon-1.2.2_1.2.2_all.deb \
  ceylon-1.3.0_1.3.0_all.deb \
- ceylon-1.3.1_1.3.1-1_all.deb"
+ ceylon-1.3.1_1.3.1-1_all.deb \
+ ceylon-1.3.2_1.3.2-0_all.deb"
 rm -rf db pool dists
 
 for deb in $DEBS
