@@ -18,7 +18,6 @@ fi
 PRIO=$(printf "%d%02d%02d0" ${VS[0]} ${VS[1]} ${VS[2]})
 
 echo "Using version $VERSION and priority $PRIO..."
-exit
 
 git checkout -q -b "${VERSION}"
 
