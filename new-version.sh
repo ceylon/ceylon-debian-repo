@@ -19,7 +19,7 @@ PRIO=$(printf "%d%02d%02d0" ${VS[0]} ${VS[1]} ${VS[2]})
 
 echo "Using version $VERSION and priority $PRIO..."
 
-perl -pi -e 's/(#.*\@NEW_VERSION\@)/DEBS="\$DEBS ceylon-$VERSION_$VERSION-0_all.deb"\n$1/' repo/build.sh
+perl -pi -e "s/(#.*\@NEW_VERSION\@)/DEBS=\"\\\$DEBS ceylon-${VERSION}_${VERSION}-0_all.deb\"\n\$1/" repo/build.sh
 dch --changelog dist-pkg/debian/changelog --newversion ${VERSION}-0 --package ceylon-$VERSION "New release $VERSION"
 dch --changelog dist-pkg/debian/changelog --release Gee
 git commit -a -m "New version $VERSION"
