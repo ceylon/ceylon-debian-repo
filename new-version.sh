@@ -33,4 +33,7 @@ sed -i -- "s/@@VERSION@@/${VERSION}/g" dist-pkg/debian/*
 sed -i -- "s/@@VERSIONPRIO@@/${PRIO}/g" dist-pkg/debian/*
 
 git commit -a -m "New version $VERSION with modified scripts"
+git push --set-upstream origin version-$VERSION
+git tag $VERSION
+git push origin $VERSION
 
