@@ -15,6 +15,7 @@ DEBS="$DEBS ceylon-1.2.2_1.2.2_all.deb"
 DEBS="$DEBS ceylon-1.3.0_1.3.0_all.deb"
 DEBS="$DEBS ceylon-1.3.1_1.3.1-1_all.deb"
 DEBS="$DEBS ceylon-1.3.2_1.3.2-0_all.deb"
+DEBS="$DEBS ceylon-1.3.3_1.3.3-0_all.deb"
 # @NEW_VERSION@
 
 rm -rf db pool dists
